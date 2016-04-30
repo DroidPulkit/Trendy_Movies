@@ -1,0 +1,26 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.MoviesActivity">
+
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@drawable/sort"
+        android:title="Sort"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:id="@+id/action_sort_popularity"
+                android:title="@string/sort_popularity"
+                />
+            <item
+                android:id="@+id/action_sort_rating"
+                android:title="@string/sort_rating"
+                />
+        </menu>
+
+    </item>
+
+</menu>

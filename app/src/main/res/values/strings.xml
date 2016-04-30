@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Trendy Movies</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_movie_details">movieDetails</string>
+    <string name="sort_popularity">Sort by Most Popular</string>
+    <string name="sort_rating">Sort by highest rated</string>
+</resources>
